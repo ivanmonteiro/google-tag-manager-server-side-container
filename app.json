@@ -1,9 +1,22 @@
 {
-  "name": "Google Tag Manager Server Side Container",
-  "description": "A server-side container for Google Tag Manager deployable to Heroku",
-  "stack": "container",
-  "image": "gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable",
-  "repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
-  "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
-  "keywords": ["GTM Server Side"],
+	"name": "Google Tag Manager Server Side Container",
+	"description": "A server-side container for Google Tag Manager deployable to Heroku",
+	"stack": "container",
+	"image": "gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable",
+	"repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
+	"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+	"env": {
+		"CONTAINER_CONFIG": {
+			"description": "A server side GTM container key.",
+			"value": "your-key"
+		},
+		"RUN_AS_PREVIEW_SERVER": {
+			"description": "Set to true to create the preview server.",
+			"value": "true"
+		},
+		"PREVIEW_SERVER_URL": {
+			"description": "A URL to the preview server. Only set when RUN_AS_PREVIEW_SERVER is false!"
+		}
+	},
+	"keywords": ["GTM Server Side"]
 }
