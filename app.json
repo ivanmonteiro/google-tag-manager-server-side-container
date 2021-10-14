@@ -1,6 +1,6 @@
 {
 	"name": "Google Tag Manager Server Side Container",
-	"description": "A server-side container for Google Tag Manager deployable to Heroku",
+	"description": "A Server Side Container for Google Tag Manager deployable to Heroku",
 	"stack": "container",
 	"image": "gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable",
 	"repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
@@ -19,5 +19,5 @@
 			"required": "false"
 		}
 	},
-	"keywords": ["GTM Server Side"]
+	"keywords": ["Google Tag Manager Server Side Container"]
 }
