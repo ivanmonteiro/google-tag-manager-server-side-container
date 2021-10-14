@@ -5,10 +5,10 @@ services:
     container_name: gtag-preview
     image: gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable
     restart: unless-stopped
-    mem_limit: 128M
-    cpus: '0.25'
+#    mem_limit: 128M
+#    cpus: '0.25'
     env_file:
-      - ./gtag-server.env
+      - ./gtag-preview-server.env
     ports:
       - '10101:8080'
 
@@ -16,10 +16,10 @@ services:
     container_name: gtag-server
     image: gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable
     restart: unless-stopped
-    mem_limit: 128M
-    cpus: '0.25'
+#    mem_limit: 128M
+#    cpus: '0.25'
     env_file:
-      - ./gtag-preview-server.env
+      - ./gtag-server.env
     ports:
       - '10100:8080'
 
