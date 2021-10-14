@@ -20,7 +20,7 @@ First [create a Tag Manager server side container](https://developers.google.com
 
 ![Screenshot](google-tag-manager-server-side-config.jpg)
 
-### Create a preview server
+### Deploy the preview server
 
 Create one preview container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key, set `RUN_AS_PREVIEW_SERVER` to false and leave `PREVIEW_SERVER_URL` empty.
 
@@ -32,11 +32,13 @@ To verify if the deploy was successful go to https://your-preview-server.herokua
 
 ![Screenshot](google-tag-manager-server-side-container-preview-healthz.jpg)
 
-### Create a server side container
+### Deploy the server side container
 
 Now create a new container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key. Set `RUN_AS_PREVIEW_SERVER` to false and fill the `PREVIEW_SERVER_URL` with the url you just copied.
 
 ![Screenshot](google-tag-manager-server-side-container-manual-deploy-heroku-2.jpg)
+
+Verify it going to the url https://your-server.herokuapp.com/healthz. The status should be "ok".
 
 
 ## Further Reading
