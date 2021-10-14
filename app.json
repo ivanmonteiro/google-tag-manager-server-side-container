@@ -8,12 +8,15 @@
   "env": {
     "CONTAINER_CONFIG": {
       "description": "A server side GTM container key.",
+      "value": "your-key",
     },
     "RUN_AS_PREVIEW_SERVER": {
-      "description": "Set to 'true' to create a preview server.",
+      "description": "Set to true to create a preview server of false to create.",
+      "value": "true",
     },
     "PREVIEW_SERVER_URL": {
-      "description": "A URL to the preview server.",
+      "description": "A URL to the preview server. Only when RUN_AS_PREVIEW_SERVER is false",
+      "value": "test",
     },
   },
 }
