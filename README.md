@@ -22,9 +22,17 @@ First [create a Tag Manager server side container](https://developers.google.com
 
 Create one preview container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key, set `RUN_AS_PREVIEW_SERVER` to false and leave `PREVIEW_SERVER_URL` empty.
 
-After the deploy is complete, copy the url of the preview server and create a new container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key. Set `RUN_AS_PREVIEW_SERVER` to false and fill the `PREVIEW_SERVER_URL`. 
+![Screenshot](google-tag-manager-server-side-container-preview-server-manual-deploy-heroku-1.jpg)
+
+After the deploy is complete copy the url of the preview server you just created.
+
+Now create a new container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key. Set `RUN_AS_PREVIEW_SERVER` to false and fill the `PREVIEW_SERVER_URL` with the url you just copied.
+
+![Screenshot](google-tag-manager-server-side-container-manual-deploy-heroku-2.jpg)
 
 
 ## Further Reading
+
 https://developers.google.com/tag-manager/serverside/manual-setup-guide
+
 https://developers.google.com/tag-manager/serverside#create_a_new_tag_manager_server-side_container
