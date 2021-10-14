@@ -14,7 +14,7 @@
     },
     "PREVIEW_SERVER_URL": {
       "description": "A URL to the preview server.",
-      "value", "https://your-preview-server-url",
+      "value": "https://your-preview-server-url",
     },
   },
   "keywords": ["google tag manager server side container"]
