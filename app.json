@@ -4,5 +4,16 @@
   "stack": "container",
   "repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
   "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
-  "keywords": ["google tag manager server side container"]
+  "keywords": ["google tag manager server side container"],
+  "env": {
+    "CONTAINER_CONFIG": {
+      "description": "A server side GTM container key.",
+    },
+    "RUN_AS_PREVIEW_SERVER": {
+      "description": "Set to 'true' to create a preview server.",
+    },
+    "PREVIEW_SERVER_URL": {
+      "description": "A URL to the preview server.",
+    },
+  },
 }
