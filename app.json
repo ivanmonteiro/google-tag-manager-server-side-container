@@ -4,5 +4,5 @@
   "stack": "container",
   "repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
   "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
-  "keywords": ["GTM Server Side", "Google Tag Manager Server Side", "Tag Manager Server Side", "Docker", "Heroku"],
+  "keywords": ["GTM Server Side", "Google Tag Manager Server Side"],
 }
