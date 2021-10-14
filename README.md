@@ -1,4 +1,4 @@
-# Google Tag Manager Server Side Container deployable to Heroku
+# Google Tag Manager Server Side Container manua deploy to Heroku
 
 It is now possible to create a Google Tag Manager Server Side Container. The automatic deploy creates a robust Google Cloud Platform infrastructure that is scalable and fault-toleraent but is not cost-effective for small businesses and low-to-medium traffic sites. Using Google Cloud to host it is very expensive, approximately $120 USD/month. 
 
