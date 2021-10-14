@@ -18,7 +18,7 @@ I created this repository to help creating GTM server side containers using Hero
 
 First [create a Tag Manager server side container](https://developers.google.com/tag-manager/serverside#create_a_new_tag_manager_server-side_container) and selecet "Manual deploy" option to get your container key.
 
-![Screenshot](google-tag-manager-server-side-key.jpg)
+![Screenshot](google-tag-manager-server-side-config.jpg)
 
 ### Create a preview server
 
