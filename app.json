@@ -16,7 +16,7 @@
 		},
 		"PREVIEW_SERVER_URL": {
 			"description": "A URL to the preview server. Only set when RUN_AS_PREVIEW_SERVER is false!",
-			"required": "false"
+			"required": false
 		}
 	},
 	"keywords": ["Google Tag Manager Server Side Container"]
