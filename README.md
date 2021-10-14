@@ -2,7 +2,7 @@
 
 It is now possible to create a Server Side Container for Google Tag Manager. The problem is that using Google Cloud to host it is very expensive, approximately $120 USD/month. The automatic deploy instructions at GTM creates a robust infrastructure that is scalable but is not cost-effective for small businesses.
 
-Fortunately Google provided instructions for manual deploy of the server side container. 
+Fortunately Google provided instructions for manual deploy of the server side container and the following docker image: `gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable`. 
 
 I created this repository to help creating GTM server side containers using Heroku **essentially for free***.
 
