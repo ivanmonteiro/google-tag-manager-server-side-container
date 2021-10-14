@@ -4,15 +4,5 @@
   "stack": "container",
   "repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
   "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
-  "keywords": ["google tag manager server side container"],
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    }
-  }
+  "keywords": ["GTM Server Side", "Google Tag Manager Server Side", "Tag Manager Server Side", "Docker", "Heroku"],
 }
