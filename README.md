@@ -1,8 +1,8 @@
-# A Server Side Container for Google Tag Manager deployable to Heroku
+# Google Tag Manager Server Side Container deployable to Heroku
 
-It is now possible to create a Server Side Container for Google Tag Manager. The problem is that using Google Cloud to host it is very expensive, approximately $120 USD/month. The automatic deploy instructions at GTM creates a robust infrastructure that is scalable but is not cost-effective for small businesses.
+It is now possible to create a Google Tag Manager Server Side Container. The automatic deploy creates a robust Google Cloud Platform infrastructure that is scalable and fault-toleraent but is not cost-effective for small businesses and low-to-medium traffic sites. Using Google Cloud to host it is very expensive, approximately $120 USD/month. 
 
-Fortunately Google provided instructions for manual deploy of the server side container and the following docker image: `gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable`. 
+Fortunately Google provided instructions for [manual setup of the server side container](https://developers.google.com/tag-manager/serverside/manual-setup-guide) and a docker image: `gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable`. 
 
 I created this repository to help creating GTM server side containers using Heroku **essentially for free***.
 
@@ -37,8 +37,6 @@ To verify if the deploy was successful go to https://your-preview-server.herokua
 Now create a new container using the "Deploy to Heroku" button above. Fill your `CONTAINER_CONFIG` key. Set `RUN_AS_PREVIEW_SERVER` to false and fill the `PREVIEW_SERVER_URL` with the url you just copied.
 
 ![Screenshot](google-tag-manager-server-side-container-manual-deploy-heroku-2.jpg)
-
-
 
 
 ## Further Reading
