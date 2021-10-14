@@ -5,5 +5,5 @@
   "image": "gcr.io/cloud-tagging-10302018/gtm-cloud-image:stable",
   "repository": "https://github.com/ivanmonteiro/google-tag-manager-server-side-container",
   "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
-  "keywords": ["GTM Server Side],
+  "keywords": ["GTM Server Side"],
 }
